@@ -1,1 +1,1 @@
-# task_manager Js-Ruby-PostgreSQL
+# task_manager Js-Django-PostgreSQL
