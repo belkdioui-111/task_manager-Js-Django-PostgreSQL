@@ -6,7 +6,7 @@ EXPOSE 443
 
 COPY ./conf/default/ /etc/nginx/sites-enabled/default
 COPY ./tools/nginx_start.sh /var/www
-COPY ./tools/my_frontend /usr/share/nginx/html/
+COPY ./my_frontend/ /usr/share/nginx/html/
 
 RUN chmod +x /var/www/nginx_start.sh
 
